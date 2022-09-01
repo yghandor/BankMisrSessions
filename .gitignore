@@ -1,0 +1,40 @@
+/.angular/cache
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+#exclude log & build#
+
+.svn
+**.log
+**.class
+node_modules
+.directory
+package-lock.json
+webapp
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.angular
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+/package-lock.json
+/package-lock.json~03155eb383c601f9a72ef04d5e111dd45a04ada6
+*.attach_pid*
+*.lock
+*.zip
+/ng

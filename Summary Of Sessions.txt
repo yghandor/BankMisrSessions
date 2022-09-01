@@ -1,0 +1,141 @@
+
+Session #1
+    - Just What Is HTML (ref is https://www.w3schools.com/ )
+
+        https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EW9ZzUbJMpZCmyIZbwxq-pUBNycC_GDILYUl1B1sFRuAcw?e=wuDAM4
+
+Session #2
+
+    -Dynamic HTML (Example Building the Calculator )
+    -Introduction to how to Generate First Angular Project
+
+        https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EXUJZ0xw4wlCgvI8R2ddPsMBiDfjyJL-vLi3jLJwiOB3Gw?e=l4vnPk
+        https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EX5MwEI_BXRNv-0jPwf0ywMByDVXnrixalFcQHMGOevzeA?e=mMaCNs
+
+    -Ref/Notes
+
+                Create Angular Project
+                  Setup --> https://angular.io/guide/setup-local
+
+            Example Command
+
+                  ng new MyFirstAngularProject
+
+            To Create Component
+                    - change dir to the folder of app under src from command line and run below
+
+                        ng g c calc
+
+            - built-in directive
+                        https://angular.io/guide/built-in-directives
+            - NgFor
+                        https://angular.io/guide/built-in-directives#ngFor
+            - Property binding
+                        https://angular.io/guide/property-binding
+            - Event binding
+                        https://angular.io/guide/event-binding
+            - interpolation ({{}} Syntex)
+                        https://angular.io/guide/interpolation
+
+Session #3
+    - How To Use External Lib like Fontawsome & bootstrap
+    - What is Angular Components
+    - Angular Component Properties (in/out)
+    - How To Build Application have Multaple Pages using the Structured Directive (*NgIf )
+
+        https://ntgegypt-my.sharepoint.com/:v:/g/personal/neliwa_ntgclarity_com/ERb2hETCjdxCua2V0Ltqt3gBKumiT8C1hQjY2LJV6PqnDg?e=6mak6j
+
+    - Ref
+
+            @Input / @Output
+                https://angular.io/guide/component-interaction
+            BootStrap
+                https://www.npmjs.com/package/bootstrap#quick-start
+                https://stackoverflow.com/questions/68081166/bootstrap-5-in-angular-application    --> check answer #3
+
+
+            fontawsome
+                https://www.npmjs.com/package/font-awesome
+            *ngIf directive
+                https://angular.io/guide/built-in-directives#ngIf
+            Menu Bar
+                https://www.w3schools.com/howto/howto_js_topnav.asp
+
+            CSS - position
+                https://www.w3schools.com/cssref/pr_class_position.asp
+
+            How To Create About page
+                https://www.w3schools.com/HOWTO/howto_css_about_page.asp
+
+
+
+
+Session #4
+
+        - How To Build Signal Page Applicaiotn Using Angular Routes
+
+            https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EVSlNj2ID0FHkKIidtx0GSoBreuOzdey3YeVhODnnpp3mA?e=d40l2x
+            https://ntgegypt-my.sharepoint.com/:v:/g/personal/neliwa_ntgclarity_com/EcpB3q1y22VOsJz5ByqKRucBLLeP6b9rowQBztULInauhw?e=waYQct
+
+
+        Notes / references :
+
+                Menu Bar Responsive
+                    https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+
+
+                @Media
+                    https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+
+                Routes
+                    https://angular.io/guide/router
+
+                Router Link / Active Directive , router-outlet
+                    https://angular.io/guide/router-reference
+
+
+                Animation.css
+                        https://animate.style/
+
+
+Session #5
+
+        -- How Toi Build Angular Applicaiton Using the Lazy Routes
+        -- Using External Libs (PrimeNG) to Build reall Applicaitons
+        -- Directive
+        -- Pipe
+
+
+                https://ntgegypt-my.sharepoint.com/:v:/g/personal/neliwa_ntgclarity_com/ESOz39BnmgJGihW6OAPoFeMBhN76RcDpgpDrUkamq5rVJw?e=5lki3S
+
+
+        Notes & References
+
+                Prime NG Components
+                        https://www.primefaces.org/primeng/
+
+                How   To Setup PrimeNg & Icon
+                        https://www.primefaces.org/primeng/setup
+                Setup PrimeFlex
+                        https://www.primefaces.org/primeflex/setup
+                PrimeNG Free Blocks
+                        https://www.primefaces.org/primeblocks-ng/#/free
+
+                Angular Material
+                        https://material.angular.io/
+
+
+                Two Way Binding
+                        https://angular.io/guide/two-way-binding
+                Directive
+                        https://angular.io/guide/attribute-directives
+
+                Pipe
+                        https://angular.io/guide/pipes-overview
+                        https://angular.io/guide/pipes
+                Routing - Lazy Load
+                        https://angular.io/guide/lazy-loading-ngmodules
+
+
+
