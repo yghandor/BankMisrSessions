@@ -1,0 +1,25 @@
+<table class="CalcTable">
+
+  <tr>
+
+    <td colspan="4">
+
+        <input  [(ngModel)]="calcText">
+
+    </td>
+
+  </tr>
+
+
+  <tr *ngFor="let row of MetaData">
+
+    <td *ngFor="let cell of row, let i = index"
+        [colSpan]="(row.length < 4 && row.length == i +1) ? (5 - row.length) : 1">
+
+        <button (click)="HandleButtonClick(cell)">{{cell}}</button>
+
+    </td>
+
+  </tr>
+
+</table>

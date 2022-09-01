@@ -1,0 +1,8 @@
+<div class="topnav">
+  <a *ngFor="let item of MenuData"
+     [class]="item.isActive ? 'active':''"
+     [href]="'#' + item.href"
+      (click)="HandleMenuChangeClick($event,item)"
+  >{{item.MenuCaption}}</a>
+
+</div>

@@ -1,0 +1,11 @@
+<app-header [MenuData]="MyMenuData"
+            (MenuSelectionHasBeanChange)="HandleMenuChangeEvent($event)"
+></app-header>
+<div class="continer">
+  <ng-container [ngSwitch]="selectedMenu">
+    <app-home *ngSwitchCase="'home'"></app-home>
+    <app-calc *ngSwitchCase="'calc'"></app-calc>
+    <app-about *ngSwitchCase="'about'"></app-about>
+  </ng-container>
+</div>
+<app-footer></app-footer>

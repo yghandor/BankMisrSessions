@@ -1,0 +1,40 @@
+
+
+.CalcTable{
+
+  background-color: black;
+
+}
+
+table.CalcTable input{
+  background-color: black;
+  color: white;
+  width: 300px;
+  margin: 5px;
+
+}
+
+
+p{
+
+  font-size: 20px;
+  color: brown;
+
+}
+
+table.CalcTable button {
+
+  background-image: linear-gradient(gray,black , gray);
+
+  color: white;
+  width: 100%;
+
+}
+
+table.CalcTable button:hover{
+
+  background-image: linear-gradient(white,black , white);
+
+  color: white;
+
+}

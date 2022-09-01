@@ -1,0 +1,25 @@
+<div>
+<label>Price </label>
+<input [(ngModel)]="price">
+
+<label>Quantity </label>
+<input [(ngModel)]="q">
+</div>
+<br>
+<div>
+
+  Total Price is {{ (q * price) | roundNumbers   }}
+
+</div>
+
+<div>
+
+  Total Price is {{ (q * price) | roundNumbers : 3 }}
+
+</div>
+
+<div>
+
+  Total Price is {{ q * price }}
+
+</div>

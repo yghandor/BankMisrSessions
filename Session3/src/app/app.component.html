@@ -1,0 +1,12 @@
+<app-header [MenuData]="MyMenuData" (MenuChange)="HandleMenuChange($event)"></app-header>
+
+
+
+<div class="container">
+  <app-home *ngIf="SelectedMenu == 'home'"></app-home>
+  <app-about *ngIf="SelectedMenu == 'about'"></app-about>
+  <app-calc *ngIf="SelectedMenu == 'calc'"></app-calc>
+</div>
+<app-footer></app-footer>
+
+<app-header [MenuData]="MyMenuData2"></app-header>

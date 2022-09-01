@@ -1,0 +1,21 @@
+<p>Calculator</p>
+
+<table>
+
+  <tr>
+    <td  colspan="4">
+        <input NTGHover="red" pInputText [value]="inp">
+    </td>
+  </tr>
+
+  <tr *ngFor="let row of MetaData">
+
+    <td *ngFor="let cell of row">
+
+      <button  [NTGHover]="'blue'" [ButtonColor]="'#875612'"    (click)="handleButtonClick(cell)">{{cell}}</button>
+
+    </td>
+
+  </tr>
+
+</table>

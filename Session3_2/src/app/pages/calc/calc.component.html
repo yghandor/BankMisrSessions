@@ -1,0 +1,17 @@
+<h1>Calculator With Angular</h1>
+
+<div>
+  <table class="calc">
+
+    <tr>
+      <td colspan="4" ><input class="input-calc" [value]="inp"> </td>
+    </tr>
+
+    <tr *ngFor="let row of metaDta">
+      <td *ngFor="let cell of row ">
+        <button (click) = "handelButton(cell)" >{{cell}}</button>
+      </td>
+    </tr>
+
+  </table>
+</div>

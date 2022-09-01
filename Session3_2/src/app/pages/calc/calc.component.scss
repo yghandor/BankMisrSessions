@@ -1,0 +1,40 @@
+h1{
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(113, 10, 230);
+}
+
+div{
+  display: flex;
+  justify-content: center;
+}
+.calc{
+  border: 1px solid rgb(172, 172, 207);
+  background-color: rgb(81, 10, 163);
+  width: 300px;
+  height: 200px;
+}
+
+tr{
+  border-radius: 4%;
+}
+
+.input-calc{
+  background-color: rgb(255, 255, 255);
+  color: rgb(2, 2, 2);
+  border: 1px solid white;
+  width: 330px;
+  margin: 5px;
+  height: 30px;
+}
+button{
+  width: 80px;
+  background-image: linear-gradient(rgb(46, 43, 43),rgb(131, 124, 124));
+  color: rgb(255, 255, 255);
+  border-radius: 10%;
+  height: 40px;
+}
+
+button:hover{
+  background-image: linear-gradient(rgb(158, 155, 155),rgb(161, 161, 161));
+}
