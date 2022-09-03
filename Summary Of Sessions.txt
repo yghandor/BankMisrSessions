@@ -138,4 +138,5 @@ Session #5
                         https://angular.io/guide/lazy-loading-ngmodules
 
 
-
+                Life Cycle
+                    https://angular.io/guide/lifecycle-hooks
