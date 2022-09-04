@@ -140,3 +140,20 @@ Session #5
 
                 Life Cycle
                     https://angular.io/guide/lifecycle-hooks
+
+Session #6
+     -  Service
+            https://angular.io/guide/creating-injectable-service
+     -  Guard
+            https://angular.io/guide/router#preventing-unauthorized-access
+     -  children Routes
+            https://angular.io/guide/router#nesting-routes
+     -  global Message (Subject)
+            https://rxjs.dev/guide/subject
+     - Styling in PrimeNG
+            https://www.primefaces.org/primeng/theming
+     - Router
+            https://angular.io/guide/router-reference#router-events
+
+    - Video of Session
+            https://ntgegypt-my.sharepoint.com/:v:/g/personal/neliwa_ntgclarity_com/EVW7pthc1ddMkNL7v2DNx2MBwCWrCR32oSSHccm8mG-1XQ?e=9c2ML6
