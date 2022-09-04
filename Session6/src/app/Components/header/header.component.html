@@ -1,9 +1,10 @@
 <p-menubar [model]="items">
 
-    <a href="#" (click)="HandleSliderShow($event)"> <i class="pi pi-bars"></i></a>
+  <span>Welcome {{_loginService.full_Name}}</span>
 
 
 
-  <button pButton label="Logout" icon="pi pi-power-off"></button>
+
+  <button pButton (click)="LogOutMe()" label="Logout" icon="pi pi-power-off"></button>
 
 </p-menubar>
