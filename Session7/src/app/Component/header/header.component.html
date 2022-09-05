@@ -1,7 +1,7 @@
 <app-blue-bar>
   <div *ngIf="MenuData" class="topnav">
     <a *ngFor="let item of MenuData"
-       routerLinkActive="active" [routerLink]="item.routerLink">{{item.label}}</a>
+       [routerLinkActive]="'active'" [routerLink]="item.routerLink">{{item.label}}</a>
 
     <ng-container *ngIf="_login.isLogin">
       <div style="float: right">

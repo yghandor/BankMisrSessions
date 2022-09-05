@@ -1,0 +1,23 @@
+.designerContainer{
+
+  display: flex;
+  height: calc(100vh - 120px);
+
+
+
+
+}
+.toolbar{
+  flex: 70px;
+  height: 100%;
+  background-color: lightgray;
+  position: relative;
+}
+
+.DrawingArea{
+    background-color: lightblue;
+  height: 100%;
+  flex: 100;
+  position: relative;
+  overflow: auto;
+}

@@ -1,0 +1,33 @@
+<ng-container *ngIf="info">
+  <svg #ship
+       [attr.height]="info.height" [attr.width]="info.width"
+
+       [style.top]="info.y + 'px'"
+       [style.left]="info.x + 'px'"
+  >
+    <defs>
+      <filter id="f1" x="0" y="0">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
+      </filter>
+    </defs>
+
+    <rect [attr.width]="info.width" [attr.height]="info.height"
+          stroke="green" stroke-width="3" [attr.fill]="info.Color  || 'red' "
+          filter="url(#f1)"/>
+    <text [attr.x]="(info.width - CalculateTextWidth(info.label) ) / 2"
+
+          [attr.y]="(info.height + 10) / 2" fill="black">{{info.label}}</text>
+    Sorry, your browser does not support inline SVG.
+  </svg>
+
+
+  <p-contextMenu [target]="ship" [model]="items2"></p-contextMenu>
+
+
+  <p-dialog header="Edit Label" appendTo="body" [(visible)]="displayEditDilaog"
+            [closable]="true"
+  >
+    <input [(ngModel)]="info.label">
+  </p-dialog>
+
+</ng-container>

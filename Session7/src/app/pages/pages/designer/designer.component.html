@@ -1,1 +1,25 @@
-<p>designer works!</p>
+<div class="designerContainer">
+
+  <div class="toolbar">
+    <app-ship draggable="true" *ngFor="let item of ToolBarShips" [info]="item"
+      (drag)="HandleDrag(item)"
+    ></app-ship>
+  </div>
+  <div class="DrawingArea" (mouseup)="HandleMouseUp()" (mousemove)="HandleMouseMove($event)"
+      (dragover)="allowDrop($event)"
+       (drop)="handleDrop($event)"
+  >
+
+    <app-ship *ngFor="let ship of Ships" [info]="ship"
+              (mousedown)="HandleShipMouseDown(ship,$event)"
+              (dblclick)="HandleMouseClick($event,ship)"
+
+    ></app-ship>
+
+  </div>
+
+
+</div>
+
+
+
