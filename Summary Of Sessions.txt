@@ -157,3 +157,32 @@ Session #6
 
     - Video of Session
             https://ntgegypt-my.sharepoint.com/:v:/g/personal/neliwa_ntgclarity_com/EVW7pthc1ddMkNL7v2DNx2MBwCWrCR32oSSHccm8mG-1XQ?e=9c2ML6
+
+
+Session # 7
+        - Project uploaded in git under Sesison7 folder @ https://github.com/yghandor/BankMisrSessions.git
+
+        - Review Project for Auth
+        - Build Graphics Objects
+
+        - Vedio
+            - Part 1 : https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EQDOTu2EaXZFrctRgjsKuEgBM2nIazkr0cdXCh4wrYwJew?e=ADF2Rt
+            - Part 2 : https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EYOV330NClZPi7JmE8jrSKUBbQK9LcDEMH689b8wLFFFxg?e=gpZycM
+
+        - Ref / Notes
+
+                - SVG
+                    https://www.w3schools.com/graphics/svg_intro.asp
+                - Canvas
+                    https://www.w3schools.com/html/html5_canvas.asp
+                - How To Calculate Text Width
+                    https://stackoverflow.com/questions/118241/calculate-text-width-with-javascript
+                - Posiation in CSS (control x & y)
+                    https://www.w3schools.com/cssref/pr_class_position.asp
+                - Prime NG Context Meny
+                    https://www.primefaces.org/primeng/contextmenu
+                - PrimeNG Dialog
+                    https://www.primefaces.org/primeng/dialog
+                - Drag & Drop
+                    https://www.w3schools.com/html/html5_draganddrop.asp
+
