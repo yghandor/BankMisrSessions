@@ -177,7 +177,7 @@ Session # 7
                     https://www.w3schools.com/html/html5_canvas.asp
                 - How To Calculate Text Width
                     https://stackoverflow.com/questions/118241/calculate-text-width-with-javascript
-                - Posiation in CSS (control x & y)
+                - Position in CSS (control x & y)
                     https://www.w3schools.com/cssref/pr_class_position.asp
                 - Prime NG Context Meny
                     https://www.primefaces.org/primeng/contextmenu
