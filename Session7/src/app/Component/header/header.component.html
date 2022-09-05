@@ -1,0 +1,13 @@
+<app-blue-bar>
+  <div *ngIf="MenuData" class="topnav">
+    <a *ngFor="let item of MenuData"
+       routerLinkActive="active" [routerLink]="item.routerLink">{{item.label}}</a>
+
+    <ng-container *ngIf="_login.isLogin">
+      <div style="float: right">
+        Welcome {{_login.fullName}}
+        <a href="#" (click)="LogOut($event)">LogOut</a>
+      </div>
+    </ng-container>
+  </div>
+</app-blue-bar>
