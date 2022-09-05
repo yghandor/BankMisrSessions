@@ -160,7 +160,7 @@ Session #6
 
 
 Session # 7
-        - Project uploaded in git under Sesison7 folder @ https://github.com/yghandor/BankMisrSessions.git
+        - Project uploaded in git under Session7 folder @ https://github.com/yghandor/BankMisrSessions.git
 
         - Review Project for Auth
         - Build Graphics Objects
