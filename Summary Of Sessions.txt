@@ -186,3 +186,35 @@ Session # 7
                 - Drag & Drop
                     https://www.w3schools.com/html/html5_draganddrop.asp
 
+Session #8
+     - Project uploaded in git under Session8 folder @ https://github.com/yghandor/BankMisrSessions.git
+
+    - ASync Concept & Arrow Function
+    - Build Back end using spring
+    - Build front Project Integrated with Back ESOz39BnmgJGihW6OAPoFeMBhN76RcDpgpDrUkamq5rVJw
+
+    -Video
+            - https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EaVrpqexOphMie79uMn0WiEBMX71adAhHaPmV8hwH1vllw?e=ZPUEag
+            - https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EQut408UedNNmUuLs1e-WhcBy5oHuenZe8fgetd_j0x7yQ?e=QAkN9J
+
+    - References / Notes
+        - Http Cleint
+            https://angular.io/guide/http
+        - Proxy
+            https://stackoverflow.com/questions/37172928/angular-cli-server-how-to-proxy-api-requests-to-another-server
+        - Form Validation
+            Example
+                https://stackblitz.com/run?file=src%2Fapp%2Fapp.component.html,src%2Fapp%2Fprofile-editor%2Fprofile-editor.component.html,src%2Fapp%2Fprofile-editor%2Fprofile-editor.component.ts
+        - reactive Form
+            https://angular.io/guide/reactive-forms
+        - More
+            https://angular.io/guide/form-validation#custom-validators
+
+        - Spring
+            https://www.youtube.com/playlist?list=PLINTMr9XkrY5RSu6zscK2SyGXM1FFcuwG
+        Starter
+                https://start.spring.io/
+        - Free Template from PrimeNG
+                https://www.primefaces.org/sakai-ng/#/
+                git clone https://github.com/primefaces/sakai-ng.git
+
