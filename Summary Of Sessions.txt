@@ -218,3 +218,42 @@ Session #8
                 https://www.primefaces.org/sakai-ng/#/
                 git clone https://github.com/primefaces/sakai-ng.git
 
+Session #9
+     - Project uploaded in git under Session9 folder @ https://github.com/yghandor/BankMisrSessions.git
+
+
+     -Video
+            - https://ntgegypt-my.sharepoint.com/:v:/g/personal/neliwa_ntgclarity_com/EdMapjlJw0ZHuP_jL63JiRIB8aWMsuFM7HeUZaA5M0Xicw?e=ryGRoo
+
+    - References
+            - Tools for Spring
+                https://spring.io/tools
+            - https://www.postgresql.org/download/
+
+
+            - rest Web Service
+                https://spring.io/guides/gs/rest-service/
+            - Introduction to Spring Data JPA
+                https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa
+            - Accessing JPA Data with REST
+                https://spring.io/guides/gs/accessing-data-rest/
+
+    -- Basic Spring Data Properties
+
+            spring.jpa.database=oracle
+            spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+            spring.jpa.properties.hibernate.default_schema=public
+            spring.datasource.driver-class-name=org.postgresql.Driver
+            spring.datasource.username=postgres
+            spring.datasource.password=hggi
+
+
+            spring.jpa.generate-ddl=true
+            spring.jpa.hibernate.ddl-auto=update
+            spring.jpa.show-sql=false
+
+
+
+
+
+
