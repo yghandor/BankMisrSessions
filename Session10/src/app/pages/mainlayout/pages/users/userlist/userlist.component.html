@@ -2,16 +2,46 @@
   <div class="text-3xl font-medium text-900 mb-3">User Managements</div>
 
   <div class="border-2 border-dashed surface-border">
-    <div style="display: flex;justify-content: right;padding: 5px">
-      <span>
-        <button (click)="HandleRefresh()" class="ToolbarButton" pButton icon="pi pi-refresh"></button>
-      </span>
-    </div>
-    <NTGGrid [data]="UserData" [cols]="cols"></NTGGrid>
+
+    <NTGGrid #grid [data]="UserData" [cols]="cols"
+             (DeleteRow)="DeleteRow($event)"
+             (EditRow)="EditRow($event)"
+    >
+
+
+      <button type="button" pButton pRipple
+              icon="pi pi-plus"
+              (click)="AddNewUser()"
+              class="ToolbarButton" pTooltip="Add"
+              tooltipPosition="bottom"></button>
+
+
+      <button type="button" pButton pRipple icon="pi pi-file" (click)="grid.exportData()" class="ToolbarButton"
+              pTooltip="CSV" tooltipPosition="bottom"></button>
+
+      <button (click)="HandleRefresh()" pRipple class="ToolbarButton" pButton icon="pi pi-refresh"></button>
+
+
+    </NTGGrid>
 
 
   </div>
 </div>
 
 
+<p-blockUI [blocked]="blockedDocument"></p-blockUI>
 <p-toast></p-toast>
+
+
+<p-dialog
+  [style]="{width: '30vw'}" position="top"
+  *ngIf="ShowAddDialog" [(visible)]="ShowAddDialog" header="Add/Edit new User">
+
+
+  <app-user-form [RowData]="NewUserObject"
+                 [SpinButton]="spingSaveButton"
+                 (SaveButtonClick)="HandleSave($event)"
+  ></app-user-form>
+
+
+</p-dialog>

@@ -9,3 +9,14 @@ body {
   justify-content: center;
 
 }
+
+.ng-invalid:not(form){
+  border-left: solid 5px red ;
+}
+
+.ng-valid:not(form){
+  border-left: solid 5px green ;
+}
+.ToolbarButton {
+  height: 25px!important;
+}

@@ -253,7 +253,15 @@ Session #9
             spring.jpa.show-sql=false
 
 
+Session #10
 
+    Build For Project have Add/Update/Delete for Users , Also we build in session 9 the login & sesison
+
+        - Project uploaded in git under Session10 folder @ https://github.com/yghandor/BankMisrSessions.git
+
+        -Vedios
+            https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EVM7ek3v_C5Juda9SzpKegQBQa10plBs7DiFMLa14CQVbA?e=SHC8Yw
+            https://ntgegypt-my.sharepoint.com/:v:/g/personal/yghandor_ntgclarity_com/EZHaek_SD1FCt8PRP5RIZUMBhCELEevmL569J9lY59siig?e=aERwqs
 
 
 

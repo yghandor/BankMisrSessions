@@ -1,15 +1,14 @@
 package org.ntg.backend.entities;
 
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "adm_users")
 public class Users {
   @Id
+  @GeneratedValue(strategy=GenerationType.SEQUENCE ,generator = "users_s1")
+  @SequenceGenerator(name="users_s1", sequenceName = "users_s1", allocationSize=1)
   private Long id;
 
   public String getUserName() {

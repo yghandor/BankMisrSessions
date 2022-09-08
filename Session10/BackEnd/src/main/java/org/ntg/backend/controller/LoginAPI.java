@@ -54,4 +54,20 @@ public class LoginAPI {
     return this._UserRepo.findAll();
   }
 
+  @PostMapping("/saveUser")
+  public Users AddUser(@RequestBody Users user) {
+
+    user = this._UserRepo.save(user);
+
+    return user;
+
+
+  }
+
+  @PostMapping("/DeleteUser")
+  public Iterable<Users> DeleteUser(@RequestBody Users user) {
+    this._UserRepo.delete(user);
+    return this._UserRepo.findAll();
+  }
+
 }
