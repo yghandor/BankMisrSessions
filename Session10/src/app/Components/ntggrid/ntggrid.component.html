@@ -1,0 +1,36 @@
+<div *ngIf="!cols || !data">
+  Loading Table Data <i class="pi pi-spinner pi-spin"></i>
+</div>
+<p-table #dt1 *ngIf="cols && data" [columns]="cols" [value]="data" responsiveLayout="scroll">
+
+  <ng-template pTemplate="caption">
+    <div class="flex">
+
+      <span class="p-input-icon-left ml-auto">
+
+                    <input pInputText type="text"
+                           (input)="HandleFilter(dt1,$event)"
+                           placeholder="Search keyword"/>
+
+                </span>
+      <i class="pi pi-search"></i>
+    </div>
+  </ng-template>
+
+  <ng-template pTemplate="header" let-columns>
+    <tr>
+
+      <th *ngFor="let col of columns"
+          [pSortableColumn]="col.field">{{col.header}}
+        <p-sortIcon [field]="col.field"></p-sortIcon>
+      </th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-rowData let-columns="columns">
+    <tr>
+      <td *ngFor="let col of columns">
+        {{rowData[col.field]}}
+      </td>
+    </tr>
+  </ng-template>
+</p-table>

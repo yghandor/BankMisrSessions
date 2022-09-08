@@ -1,0 +1,12 @@
+<p-menubar [model]="items">
+
+  <p>Welcome {{_login.full_name}}
+    <a href="#">
+    <i (click)="HandleSignOut($event)"  class="pi pi-power-off" > </i>
+    </a>
+  </p>
+</p-menubar>
+
+
+
+<router-outlet></router-outlet>
